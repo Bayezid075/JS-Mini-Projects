@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  background: url("./img/bg.jpg");
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.container {
+}
+.search {
+  width: 500px;
+  background: white;
+  padding: 25px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.search > form > input {
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+}
+.search > form > input:focus {
+  outline: none;
+}
+.search > form > button {
+  font-size: 20px;
+  padding: 12px;
+  background: rgba(18, 78, 243, 0.706);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.status_container {
+  background: white;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.hightlight {
+  display: flex;
+  justify-content: center;
+}
+.hightlight > * {
+  flex: 1;
+}
+.info_container {
+  margin-top: 25px;
+  display: flex;
+}
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  width: 400px;
+}
+.title > p {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+.status {
+  font-size: 20px;
+  font-weight: 400;
+}
+.status > p {
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
