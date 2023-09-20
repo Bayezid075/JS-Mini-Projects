@@ -32,5 +32,9 @@ form.addEventListener("submit", (e) => {
     cloud.innerHTML = `${clouds}%`;
     feels.innerHTML = `${feelsLike}`;
   }
-  getData();
+  if (location == "") {
+    alert("Type location in search box ");
+  } else {
+    getData();
+  }
 });
