@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Black Ops One", cursive;
+  font-size: 56px;
+  text-align: center;
+}
+
+p {
+  font-size: 28px;
+  text-align: center;
+}
+
+canvas {
+  background: #735000;
+  display: block;
+  margin: 20px auto;
+  margin-top: 20px;
+}
